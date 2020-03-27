@@ -19,7 +19,7 @@
     <!--    1 => Records are discarded                                       -->
     <!--    0 => Records are kept                                            -->
     <!-- =================================================================== -->  
-    <discard_states>1</discard_states>
+    <discard_states>0</discard_states>
     <discard_events>0</discard_events>
     <discard_communications>1</discard_communications>
 
@@ -32,9 +32,7 @@
     <!--  To set minimum state duration in time units, set <min_state_time>  -->
     <!-- =================================================================== -->  
 
-    <states>Running
-     	<min_state_time>10000</min_state_time>
-    </states>
+    <states>Running</states>
 
     <!-- === Events section ================================================ -->
     <!--  To select "filter" as behaviour, change external xml tag to:       -->

@@ -33,7 +33,7 @@
     <!--  To set minimum state duration in time units, set <min_state_time>  -->
     <!-- =================================================================== -->  
 
-    <states>Idle,Running</states>
+    <states>Idle,Running,I/O,</states>
 
     <!-- === Events section ================================================ -->
     <!--  To select "filter" as behaviour, change external xml tag to:       -->
@@ -56,6 +56,8 @@
       <type>50100001-50100004</type> 
       <type>42000050</type> 
       <type>42000059</type>
+      <type>40000003</type>
+      <type>40000004</type>
    	</types>
 
     <!-- === Communications section ======================================== -->
